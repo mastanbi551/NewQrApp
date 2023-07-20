@@ -13,6 +13,11 @@
   }
 }
 
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +40,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-container {
+  background-image: url(./images/mainBgImage.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  color: white;
+  font-style: italic;
+}
+
+.bride-button, .groom-button {
+  width: 180px;
+  height: 40%;
+  background-color: aqua;
+  color: white;
+  display: block;
+  font-size: 22px;
+  font-style: italic;
+  margin: 30px;
+}
+
+.main-buttons{
+  margin-top: 100px;
 }
